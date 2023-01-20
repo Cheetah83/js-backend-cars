@@ -1,0 +1,36 @@
+{
+  "aaa1234": {
+    "name": "Peugoet 206 1.4i",
+    "description": "223 500 km. Newly Imported. Manual transmission. Diesel engine.",
+    "imageUrl": "/static/images/car.jpg",
+    "price": 2800
+  },
+
+  "aabf1234": {
+    "name": "Gan356 Air SM",
+    "description": "level 3",
+    "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
+    "price": 1050
+  },
+
+  "aac1234": {
+    "name": "Eco-Dark",
+    "description": "level 6",
+    "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
+    "price": 1200
+  },
+
+  "aad1234": {
+    "name": "Pyraminx",
+    "description": "level 1",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
+    "price": 1150
+  },
+
+  "aae1234": {
+    "name": "Megaminx",
+    "description": "level 3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61HpQqVQ37L._SY355_.jpg",
+    "price": 1150
+  }
+}
