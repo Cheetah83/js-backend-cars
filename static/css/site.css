@@ -260,3 +260,10 @@ footer {
         opacity: 0;
     }
 }
+
+.description {
+    display: none;
+}
+.description p {
+    margin: 10px;
+}
