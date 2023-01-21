@@ -3,10 +3,13 @@ const hbs = require('express-handlebars');
 
 const carService = require('./services/cars');
 
+const { home } = require('./contollers/home');
 const { about } = require('./contollers/about');
 const create = require('./contollers/create');
 const { details } = require('./contollers/details');
-const { home } = require('./contollers/home');
+const editCar = require('./contollers/edit');
+const deleteCar = require('./contollers/delete');
+
 const { notFound } = require('./contollers/notFound');
 
 const app = express();
@@ -25,6 +28,8 @@ app.get('/about', about);
 app.get('/details/:id', details);
 
 app.route('/create').get(create.get).post(create.post);
+app.route('/edit/:id').get(editCar.get).post(editCar.post);
+app.route('/delete/:id').get(deleteCar.get).post(deleteCar.post);
 
 app.all('*', notFound);
 
